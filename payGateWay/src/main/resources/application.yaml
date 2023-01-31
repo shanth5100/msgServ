@@ -1,0 +1,29 @@
+#paypal:
+#  baseUrl:https://api-m.sandbox.paypal.com
+#  clientId:YOUR CLIENT ID
+#  secret:-YOUR SECRET
+#paypa
+
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.datasource.driverClassName=org.h2.Driver
+#spring.datasource.username=sa
+#spring.datasource.password=password
+#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+#spring.h2.console.enabled=true
+#spring.liquibase.change-log=classpath:db/changelog/liquibase.xml
+
+server:
+  port: 8082
+#spring:
+#  datasource:
+#    username: su
+#    password: abc12345
+#    url: jdbc:h2:mem:testdb
+#    driver-class-name: org.h2.Driver
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#  h2:
+#    console:
+#      enabled: true # http://localhost:8082/h2-console/ access over browser
+#  liquibase:
+#    change-log: classpath:db/changelog/liquibase.xml

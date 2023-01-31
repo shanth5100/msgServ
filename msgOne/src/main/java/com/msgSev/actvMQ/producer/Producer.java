@@ -1,10 +1,10 @@
-package com.msgSev.actvMQ.consumer;
+package com.msgSev.actvMQ.producer;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Consumer1 extends RouteBuilder {
+public class Producer extends RouteBuilder {
 
 	@Override
 	public void configure() throws Exception {
