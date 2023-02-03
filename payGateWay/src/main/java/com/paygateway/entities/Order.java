@@ -23,6 +23,28 @@ public class Order {
 	@Column(name = "PAYPAL_ORDER_STATUS")
 	private long paypalOredrStatus;
 
+	@Column(name = "AMOUNT_PAID")
+	private String ammountPaid;
+	
+	@Column(name = "CURRENCY")
+	private String currency;
+	
+	public String getAmmountPaid() {
+		return ammountPaid;
+	}
+
+	public void setAmmountPaid(String ammountPaid) {
+		this.ammountPaid = ammountPaid;
+	}
+
+	public String getCurrency() {
+		return currency;
+	}
+
+	public void setCurrency(String currency) {
+		this.currency = currency;
+	}
+
 	public long getOredrId() {
 		return oredrId;
 	}
