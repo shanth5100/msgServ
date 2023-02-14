@@ -23,7 +23,7 @@ public class PayPalHttpClient {
     private final PaypalConfig paypalConfig;
     private final ObjectMapper objectMapper;
 
-    @Autowired
+    
     public PayPalHttpClient(PaypalConfig paypalConfig, ObjectMapper objectMapper) {
         this.paypalConfig = paypalConfig;
         this.objectMapper = objectMapper;
